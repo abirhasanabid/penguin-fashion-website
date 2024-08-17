@@ -1,22 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin-Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
-    <main>
 
+    <style>
+        .bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .montserrat-font {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-amber-400 bg-opacity-5">
+        <!-- navber start -->
+        <nav class="w-4/5 mx-auto">
+
+        </nav>
+        <!-- banner start -->
+        <div class="w-4/5 mx-auto md:flex justify-between items-center ">
+            <div class="roboto">
+                <h1 class="text-7xl bebas-neue"><span class="text-amber-400">Be the Penguins</span> <br>
+                    of Winter</h1>
+                <p class="py-2">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button
+                    class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                        <path
+                            d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                    </svg>
+                    bye now</button>
+            </div>
+            <div class="py-10 lg:py-32">
+                <img src="./images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="w-4/5 mx-auto">
+        <!-- women jacket -->
+        <section class="roboto mb-24">
+            <h1 class="uppercase text-5xl text-[#363958] mt-12 mb-9 bebas-neue">W0Man Jacket</h1>
+            <div class="md:grid md:grid-cols-3 md:gap-12">
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-1.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-2.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-3.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- man jacket -->
+        <section class="roboto mb-24">
+            <h1 class="uppercase text-5xl text-[#363958] mt-12 mb-9 bebas-neue">men Jacket</h1>
+            <div class="md:grid md:grid-cols-3 md:gap-12">
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-4.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-5.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded-3xl p-5">
+                    <img class="bg-[#F1F1F1] rounded-2xl p-5" src="./images/jacket-6.png" alt="">
+                    <h3 class="text-2xl font-bold pt-4 text-[#363958]">Yellow Coat Jacket </h3>
+                    <p class=" leading-5 text-[#3E3E3E] py-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                        <div class="md:flex md:justify-between md:items-center">
+                        <h2 class="text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button
+                            class="rounded-md py-3 px-8 uppercase bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white font-medium hover:cursor-pointer flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path
+                                    d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                            </svg>
+                            bye now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
